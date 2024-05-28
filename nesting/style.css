@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  top: 0%;
+  background-image: url(saas.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.container nav {
+  position: absolute;
+  top: 0;
+  bottom: 100%;
+}
+.container nav ul {
+  font-family: sans-serif;
+  margin-top: 1.5rem;
+  display: flex;
+}
+.container nav ul li {
+  display: inline;
+  list-style: none;
+}
+.container nav ul li a {
+  color: rgb(254, 255, 253);
+  margin: 20px;
+  text-decoration: none;
+  padding-top: 5px;
+}
+.container nav ul li a:hover {
+  border-top: 1px solid rgb(255, 218, 52);
+}/*# sourceMappingURL=style.css.map */
