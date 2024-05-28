@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+$main-color: teal;
+$card-color: lightblue;
+$bg-img-center: no-repeat center/cover;
+$mainFont: 'Roboto',sans-serif;
+body {
+    background-color: $main-color;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: $mainFont;
+}
+
+.card {
+    background-color: $card-color;
+    max-width: 480px;
+    padding:40px;
+    line-height:24px;
+    margin:5rem;
+    position: relative;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 5px solid black;
+    position: absolute;
+    right:-30px;
+    bottom: 110px;
+}
+.img-1 {
+    background: url(img-1)$bg-img-center;}
+.img-2 {
+    background: url(img-2)$bg-img-center;
+
+}
+
