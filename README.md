@@ -23,10 +23,10 @@ Navigation Bar:Provides a styled navigation bar at the top of the page.
 Hover Effect:Navigation links change color and display a border on hover.
 Flexible Styling: Modular and easy to customize.
 ## Usage: 
-Include the SCSS: Compile the provided SCSS file (style.scss) to CSS.
-Container Setup: Wrap your content in a <div> with the class container.
-Navigation Links: Customize the navigation links by modifying the HTML structure inside the nav element.
-Customization: Adjust the colors, margins, and other properties in the SCSS file to match your design.
+Include the SCSS: Compile the provided SCSS file (style.scss) to CSS.<br>
+Container Setup: Wrap your content in a```<div>``` with the class container.<br>
+Navigation Links: Customize the navigation links by modifying the HTML structure inside the nav element.<br>
+Customization: Adjust the colors, margins, and other properties in the SCSS file to match your design.<br>
 
 ## Results:
 
