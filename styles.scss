@@ -1,0 +1,174 @@
+$bg-color: #000;
+$font-family: Arial, sans-serif;
+$main-bg: url(https://wallpapers.com/images/hd/girly-skull-g1ifdl10crf2ogku.jpg);
+$card-bg: rgb(196, 169, 200);
+$card-color: rgb(220, 215, 223);
+$second-image: url(second-image);
+
+body {
+  background-color: $bg-color;
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+}
+
+main {
+  background: $main-bg;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    font-size: 10rem;
+    color: white; 
+    font-style: italic;
+    font-weight: 400;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  p {
+    max-width: 600px;
+    margin: 10px;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  button {
+    border: none;
+    background-color: whitesmoke;
+    padding: 20px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+    text-align: center;
+
+    &:hover {
+      background-color: blueviolet;
+      transition: background-color 0.3s ease-in-out; // Add transition effect
+    }
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 100%;
+  background: rgb(155, 11, 250);
+}
+
+nav .logo-container {
+  margin-left: 40px;
+}
+
+nav ul {
+  margin-right: 40px;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-left: 30px;
+}
+
+nav li a {
+  text-decoration: none;
+  background-color: whitesmoke;
+  padding: 10px 20px;
+  font-weight: 300;
+  color: #000;
+}
+
+nav li a:hover {
+  background-color: blueviolet;
+}
+
+.card {
+  height: 700px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $card-bg;
+  padding: 40px;
+  line-height: 24px;
+  margin: 10rem;
+  position: relative;
+
+  &.card-content {
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-bottom: 20px;
+      text-align: center;
+      position: absolute;
+      top: -50px; // Adjust as needed to position above the image
+      left: 50%; // Center horizontally
+      transform: translateX(-50%); // Center horizontally
+    }
+
+    .first-image {
+      width: 50%;
+      max-width: 100px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(50, 7, 51, 0.3);
+      margin-top: 20px;
+    }
+  }
+}
+
+.qoute {
+  margin-top: 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.qoute-img {
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out; // Add transition effect
+
+  &:hover {
+    transform: scale(1.1); // Change the size of the image on hover
+    border-color: blueviolet;
+  }
+
+  img {
+    width: 300px; /* set a fixed width for all images */
+    height: 200px; /* set a fixed height for all images */
+  }
+  
+}
+.card .card-content h1 {
+  color: blue;
+}
+
+.qoute .last {
+  color: white;
+}
+.card.card-content a {
+  color: black;
+}
