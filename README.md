@@ -1,5 +1,5 @@
 # Saasy:
-# Sass Project 1
+# Sass Project 1:
 ## Overview
 Saasy is a stylish Sass project showcasing the power of variables in CSS styling. In this project, we've created a simple web page using only Sass variables to define colors and styles.
 
@@ -39,7 +39,8 @@ The accompanying CSS file styles the cards using mixins for basic styles and con
 Overall, this code creates a visually appealing pricing page for a service with three different tiers.
 ## Results:
 
-![image](https://github.com/AlizayAyesha/Sassy-Sass-Projects/assets/68489612/ce072c66-bc95-4cd2-bb17-f15c90b7336c)
+![image](https://github.com/AlizayAyesha/Sassy-Sass-Projects/assets/68489612/7324954f-547a-4ce8-b355-5d45bc564ffb)
+
 
 
 
