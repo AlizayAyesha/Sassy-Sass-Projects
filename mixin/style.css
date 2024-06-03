@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  color: #000;
+  margin: 10px;
+  height: 100vh;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, #ec4bd2, rgba(235, 75, 208, 0.3647058824));
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  font-family: sans-serif;
+  height: 70%;
+}
+.card-content .price {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card-content .price .span {
+  font-size: 1rem;
+}
+.card-content .card-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card-content .card-info {
+  font-size: 14px;
+  padding: 0 20px;
+  line-height: 1.4;
+  flex-grow: 1;
+}
+.card-content .button {
+  background: yellow;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border-radius: 200px;
+  font-size: 16px;
+  margin: 4px 20px;
+  cursor: pointer;
+}
+
+.card-two {
+  background: linear-gradient(to bottom, #2cbd60, rgba(105, 197, 8, 0.3647058824));
+}
+
+.card-three {
+  background: linear-gradient(to bottom, rgba(6, 13, 163, 0.3647058824), #4ba1ec);
+}/*# sourceMappingURL=style.css.map */
