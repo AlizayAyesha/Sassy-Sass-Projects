@@ -32,3 +32,14 @@ Customization: Adjust the colors, margins, and other properties in the SCSS file
 
 ![image](https://github.com/AlizayAyesha/Sassy-Sass-Project-1/assets/68489612/4da6dcb3-ed38-434c-8651-c2a653344fac)
 
+# Sass Project 3:
+## Overview
+The accompanying CSS file styles the cards using mixins for basic styles and content styles. Each card has a gradient background corresponding to its tier, and the "Choose" button has a black background with white text.
+## Features
+Overall, this code creates a visually appealing pricing page for a service with three different tiers.
+## Results:
+
+![image](https://github.com/AlizayAyesha/Sassy-Sass-Projects/assets/68489612/ce072c66-bc95-4cd2-bb17-f15c90b7336c)
+
+
+
