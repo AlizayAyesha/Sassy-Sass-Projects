@@ -42,5 +42,3 @@ Overall, this code creates a visually appealing pricing page for a service with 
 ![image](https://github.com/AlizayAyesha/Sassy-Sass-Projects/assets/68489612/7324954f-547a-4ce8-b355-5d45bc564ffb)
 
 
-
-
